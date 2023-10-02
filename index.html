@@ -1,39 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Workit</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-     <div class="site-header-hero-wrapper">
-        <header class="site-header">
-            <div class="site-header__container container">
-                <a class="site-header__logo logo" href="index.html">
-                    <img src="img/logo-light.svg" alt="workit logo" width="97" height="26">
-                </a>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-header-hero-wrapper">
+      <header class="site-header">
+        <div class="site-header__container container">
+          <a class="site-header__logo logo" href="index.html">
+            <img
+              src="img/logo-light.svg"
+              alt="workit logo"
+              width="97"
+              height="26"
+            />
+          </a>
 
-                <a class="underline-link" href="#">Apply for access</a> 
-            </div>
-        </header>
-
-        <div class="hero">
-            <div class="hero__container container">
-                <h1 class="hero__heading">Data <span class="underline-text">tailored</span> to your needs.</h1>
-                <a href="#" class="hero__button button">Learn more</a>
-
-                <picture class="hero__picture">
-                    <source srcset="img/image-hero-mobile.png 1x, img/image-hero-mobile.png 2x" media="(max-width
-                    500px)">
-                    <source srcset="img/image-hero-tablet.png 1x, img/image-hero-tablet@2x.png 2x" media="(max-width
-                    768px)">
-                    <source srcset="img/image-hero.webp" type="image/webp">
-                    <img class="hero__img" src="img/image-hero.png" alt="Phone with statistics illustration on the screen" width="767" height="441" srcset="img/image-hero.png 1x, img/image-hero@2x.png 2x">
-                </picture>
-            </div>
+          <a class="underline-link" href="#">Apply for access</a>
         </div>
-     </div>
-</body>
+      </header>
+
+      <div class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__heading">
+            Data <span class="underline-text">tailored</span> to your needs.
+          </h1>
+          <a href="#" class="hero__button button">Learn more</a>
+
+          <picture class="hero__picture">
+            <source
+              srcset="
+                img/image-hero-mobile.png 1x,
+                img/image-hero-mobile.png 2x
+              "
+              media="(max-width
+                    500px)"
+            />
+            <source
+              srcset="
+                img/image-hero-tablet.png    1x,
+                img/image-hero-tablet@2x.png 2x
+              "
+              media="(max-width
+                    768px)"
+            />
+            <source srcset="img/image-hero.webp" type="image/webp" />
+            <img
+              class="hero__img"
+              src="img/image-hero.png"
+              alt="Phone with statistics illustration on the screen"
+              width="767"
+              height="441"
+              srcset="img/image-hero.png 1x, img/image-hero@2x.png 2x"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <!-- FEATURES -->
+      <section class="features">
+        <div class="container">
+          <h2 class="visually-hidden">Features</h2>
+          <ul class="features_list">
+            <li class="features__item feature">
+              <div class="feature__inner">
+                <h3 class="feature__title">Actionable insights</h3>
+                <p class="feature__description">
+                  Optimize your products, improve customer satisfaction and stay
+                  ahead of the compatition with our product data analytics.
+                </p>
+              </div>
+            </li>
+            <li class="features__item feature">
+              <div class="feature__inner">
+                <h3 class="feature__title">Data-driven decisions</h3>
+                <p class="feature__description">
+                  Make data driven decisions with our product data analytics.
+                  Our AI-generated reports help you unlock insights hidden in
+                  your product data.
+                </p>
+              </div>
+            </li>
+            <li class="features__item feature">
+              <div class="feature__inner">
+                <h3 class="feature__title">Always affordable</h3>
+                <p class="feature__description">
+                  Always affordable pricing that scales with your business. Get
+                  top-quality product data analytics services without hidden
+                  costs or unexpected fees.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
